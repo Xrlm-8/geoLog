@@ -1,7 +1,5 @@
 <?php
-    ##################################################################################################
     #Função de API Geografica por IP
-	##################################################################################################
     #Pegando localização e dados do usuario para armazenar em log
     $ip_addr = $_SERVER['REMOTE_ADDR'];
     $url = "http://ip-api.com/json/$ip_addr?fields=258047&lang=pt-BR";
